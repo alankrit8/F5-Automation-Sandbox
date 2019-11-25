@@ -16,7 +16,7 @@ deploy:
   secret_access_key: $AWS_SECRET_ACCESS_KEY
   bucket: $AWS_S3_STAGING
   local_dir: docs/_build/html
-  upload_dir: $AWS_DIR
+  upload_dir: training/automation-sandbox
   on:
     branch: master
     repo: alankrit8/F5-Automation-Sandbox
